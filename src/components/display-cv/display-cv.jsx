@@ -1,4 +1,6 @@
 import './display-cv.css';
+import emailIcon from '../../assets/envelope.svg'
+import phoneIcon from '../../assets/phone.svg'
 
 export default function CV({ info }) {
   return (
@@ -10,12 +12,12 @@ export default function CV({ info }) {
         <div className="personal-details">
           <span className='phone'>
             {info?.phone
-              && (<img className='icon' src="src/assets/phone.svg" alt="Phone icon" />)}
+              && (<img className='icon' src={phoneIcon} alt="Phone icon" />)}
             {info?.phone}
           </span>
           <span className='email'>
             {info?.email
-              && (<img className='icon' src="src/assets/envelope.svg" alt="E-mail icon" />)}
+              && (<img className='icon' src={emailIcon} alt="E-mail icon" />)}
             {info?.email}
           </span>
         </div>
