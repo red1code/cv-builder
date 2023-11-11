@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+}
+
+input {
+  outline: none;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+input.invalid {
+  border-color: orangered;
+}
+
+input.valid {
+  border-color: green;
+}
+
+.err-msg {
+  color: orangered;
+}

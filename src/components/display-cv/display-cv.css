@@ -1,0 +1,57 @@
+.cv-container {
+  background-color: #fff;
+  box-shadow: 0 0 5px 0;
+  height: 297mm;
+  /* width: 210mm; */
+}
+
+header {
+  padding: calc(var(--gap) * 2) calc(var(--gap) * 1.5);
+  background-color: #eee;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.personal-details {
+  margin-top: var(--gap);
+  display: flex;
+  justify-content: center;
+  gap: calc(var(--gap) * 2);
+}
+
+.personal-details > span {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--gap) / 2);
+}
+
+.icon {
+  width: 16px;
+}
+
+section {
+  padding: calc(var(--gap) * 1.5);
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: calc(var(--gap) / 2);
+  background-color: #eee;
+}
+
+.experience-info,
+.education-info {
+  display: flex;
+  gap: calc(var(--gap) * 1.5);
+  margin-bottom: var(--gap);
+}
+
+.left-side {
+  width: 175px;
+}
+
+.less-important-txt {
+  opacity: 0.8;
+}

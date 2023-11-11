@@ -1,0 +1,19 @@
+button.toggle {
+  outline: none;
+  border: none;
+  background-color: #eee;  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--gap);
+}
+
+button.toggle:hover {
+  filter: brightness(0.9);
+  transition: 0.1s;
+}
+
+.add-edu-container {
+  text-align: center;
+  margin-top: var(--gap);
+}

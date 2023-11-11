@@ -1,0 +1,37 @@
+.resume-container {
+  padding: var(--gap);
+  display: flex;
+  gap: var(--gap);
+  max-width: 1400px;
+  margin-inline: auto;
+}
+
+.top-btns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.forms {
+  flex: 1;
+  width: 500px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.cv {
+  flex: 2;
+}
+
+/*
+** responsiveness
+*/
+
+@media screen and (max-width: 950px) {
+  .resume-container {
+    flex-direction: column-reverse;
+  }
+}

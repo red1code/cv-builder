@@ -1,0 +1,33 @@
+button.exp-toggle {
+  outline: none;
+  border: none;
+  background-color: #eee;  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--gap);
+}
+
+button.exp-toggle:hover {
+  filter: brightness(0.9);
+  transition: 0.1s;
+}
+
+.add-exp-container {
+  text-align: center;
+  margin-top: var(--gap);
+}
+
+button.delete-btn {
+  outline: none;
+  font-size: small;
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  margin-bottom: var(--gap);
+}
+
+button.delete-btn:hover {
+  background-color: brown;
+  transition: 0.1;
+}

@@ -1,0 +1,16 @@
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  margin-bottom: var(--gap);
+}
+
+/*
+** responsiveness
+*/
+
+@media screen and (max-width: 750px) {
+  .inputs-container {
+    grid-template-columns: 1fr;
+  }
+}
